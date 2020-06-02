@@ -1,5 +1,5 @@
 # Natours
-### Website for booking travelling tickets
+### Website for booking tours
 #### Developed using:
 - HTML5
 - CSS3
