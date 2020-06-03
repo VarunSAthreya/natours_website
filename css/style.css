@@ -7,6 +7,12 @@ DARK GREEN: #28B485
 
 */
 
+:root {
+    --bg-light-green: #7ed56f;
+    --bg-medium-green: #55c57a;
+    --bg-dark-green: #28b485;
+}
+
 * {
     margin: 0;
     padding: 0;
