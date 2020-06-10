@@ -1067,6 +1067,7 @@ body {
 @media (max-width: 56.25em) {
     .row {
         max-width: 50rem;
+        padding: 0 3rem;
     }
 }
 
@@ -1127,6 +1128,12 @@ body {
     font-size: 1.4rem;
 }
 
+@media (max-width: 56.25em) {
+    .footer {
+        padding: 8rem 0;
+    }
+}
+
 .footer__logo-box {
     text-align: center;
     margin: 8rem;
@@ -1140,6 +1147,13 @@ body {
     border-top: 0.1rem solid #777;
     padding-top: 2rem;
     display: inline-block;
+}
+
+@media (max-width: 56.25em) {
+    .footer__navigation {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .footer__list {
@@ -1179,6 +1193,13 @@ body {
     padding-top: 2rem;
     width: 80%;
     float: right;
+}
+
+@media (max-width: 56.25em) {
+    .footer__copyright {
+        width: 100%;
+        float: none;
+    }
 }
 
 .navigation__checkbox {
