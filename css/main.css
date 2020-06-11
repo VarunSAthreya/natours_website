@@ -1061,6 +1061,12 @@ body {
     transition: all 0.3s;
 }
 
+@media (max-width: 56.25em) {
+    .popup {
+        text-align: center;
+    }
+}
+
 .popup__content {
     position: absolute;
     top: 50%;
@@ -1087,6 +1093,15 @@ body {
     vertical-align: middle;
 }
 
+@media (max-width: 56.25em) {
+    .popup__left {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+    }
+}
+
 .popup__right {
     width: 66.666667%;
     display: table-cell;
@@ -1094,9 +1109,23 @@ body {
     padding: 3rem 5rem;
 }
 
+@media (max-width: 56.25em) {
+    .popup__right {
+        display: block;
+        width: 100%;
+    }
+}
+
 .popup__img {
     display: block;
     width: 100%;
+}
+
+@media (max-width: 56.25em) {
+    .popup__img {
+        display: inline-block;
+        width: 50%;
+    }
 }
 
 .popup__text {
