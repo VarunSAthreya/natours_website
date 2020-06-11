@@ -10,6 +10,10 @@
     &__logo-box {
         text-align: center;
         margin: 8rem;
+
+        @include respond(tab-port) {
+            margin: 6rem;
+        }
     }
 
     &__logo {
