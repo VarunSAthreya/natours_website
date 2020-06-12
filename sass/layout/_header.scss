@@ -37,6 +37,11 @@
         position: absolute;
         top: 4rem;
         left: 4rem;
+
+        @include respond(tab-port) {
+            position: absolute;
+            top: 6rem;
+        }
     }
 
     &__logo {
