@@ -1292,6 +1292,13 @@ body {
     }
 }
 
+@media only screen and (max-width: 56.25em) {
+    .header {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    }
+}
+
 .header__logo-box {
     position: absolute;
     top: 4rem;
